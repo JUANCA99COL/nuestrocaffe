@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+
+html { 
+    background: #DDB892;
+    overflow-x: hidden;
+}
+
+
+#register {
+    position: relative;
+}
+
+#home {
+    position: relative;
+}
+
+#suppliers {
+    padding: 10%;
+    background: #DDB892; 
+}
+
+#faqs {
+    padding: 10%;
+    background: #DDB892; 
+}
+
+.thanks-con {
+    /* font-size: 60px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.menu {
+    filter: invert(100%) sepia(96%) saturate(12%) hue-rotate(242deg) brightness(104%) contrast(100%);
+    width: 40px;
+    margin-top: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menu2 {
+    filter: invert(0%) sepia(67%) saturate(7490%) hue-rotate(51deg) brightness(81%) contrast(97%);
+    width: 40px;
+    margin-top: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.header {
+    margin-top: 20px;
+    margin: 10px;
+}
+
+.header2 {
+    color: black;
+    margin-top: 20px;
+    margin: 10px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h1 {
+    margin-top: -75px;
+    font-size: 40px;
+}
+
+.content h3 {
+    font-size: 24px;
+    margin-bottom: 35px;
+    font-weight: lighter;
+}
+
+.logo {
+    width: 70%;
+    margin-top: -50px;
+}
+
+.one-btn {
+    background: #DDB892;
+    color: white;
+    width: 150px;
+    border: 2px solid #DDB892;
+}
+
+.two-btn {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    width: 150px;
+}
+
+
+.one-btn:hover {
+    background: black;
+}
+
+.two-btn:hover {
+    background: black;
+}
+
+.sup-con {
+    background: #553636; 
+}
+
+.sup-img {
+    width: 100%;
+    height: auto;
+    margin-left: 12px;
+    
+}
+
+.reg-img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+
+.my-form {
+    background: black;
+    opacity: 0.9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.password-in {
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* menu animation  */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /* left  */
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+  }
+
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+ /* end of animation  */
+
+
+
+/* MEDIA QUARIES  */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .menu {
+        width: 20px;
+    }
+
+    .menu2 {
+        width: 20px; 
+    }
+
+
+    .banner-img {
+        height: 590px;
+    }
+
+    .reg-img {
+        height: 760px;
+    }
+
+    .my-form {
+        width: 100%;
+    }
+
+    .content h1 {
+        margin-top: -40px;
+        font-size: 27px;
+    }
+
+    .content h3 {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    #suppliers {
+        padding: 0%;
+        /* background: #DDB892;  */
+    }
+
+    .sup-img {
+        margin-left: 0;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

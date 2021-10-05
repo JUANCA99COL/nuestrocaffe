@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section id="register">
+
+    <img class="reg-img" src="img/img-4.jpg" alt="">
+
+
+    <div class="row nav">
+        <div class="p-3 col-10">
+            <a class="text-white" href="index.html">
+                <h3 class="header">NuestroCaffè</h3>
+            </a>
+        </div>
+        <div class="p-3 col-2 men-div">
+            <img class="menu float-end" src="img/bars-solid.svg" alt="" onclick="openNav()">
+        </div>
+    </div>
+
+    <!-- second nav  -->
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="suppliers.html">Suppliers</a>
+        <a href="register.html">Register</a>
+        <a href="faqs.html">FAQS</a>
+    </div>
+
+
+    <!-- end  -->
+
+
+
+
+    <form class="text-white my-form p-5" action="https://formsubmit.co/jcamilocarorodriguez@gmail.com" method="POST">
+        <h2 class="title text-left">REGISTER</h2>
+        <p class="pb-3">Fill the form below and We’ll get back to you soon</p>
+
+        <div class="mb-3">
+            <!-- <label for="exampleInputEmail1" class="form-label">Full Name</label> -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="first name">
+        </div>
+
+        <div class="mb-3">
+            <!-- <label for="exampleInputEmail1" class="form-label">Full Name</label> -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="last name">
+        </div>
+
+        <div class="mb-3">
+            <!-- <label for="exampleInputEmail1" class="form-label">Email</label> -->
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email" required>
+            <div id="emailHelp" class="form-text"></div>
+        </div>
+
+        <div class="mb-3">
+            <!-- <label for="exampleInputEmail1" class="form-label">Full Name</label> -->
+            <input type="hidden" name="_captcha" value="false">
+            <input class="w-100 password-in" type="password" id="pass" name="password"
+            minlength="8" placeholder="password" required>
+        </div>
+
+        <div class="mb-3">
+            <!-- <label for="exampleInputEmail1" class="form-label">Full Name</label> -->
+            <input type="hidden" name="_captcha" value="false">
+            <input class="w-100 password-in" type="password" id="pass" name="password"
+            minlength="8" placeholder="repeat password" required>
+        </div>
+
+      
+        <button type="submit" class="mt-3 btn btn-dark send-btn" value="Send Form">Submit</button>
+        <input type="hidden" name="_next" value="https://juanca99col.github.io/advance-sleek/thanks-alot.html">                                                                                   
+        <input type="hidden" name="_subject" value="New submission!">
+    </form>
+
+
+</section>
+
+
+<!-- footer  -->
+<div class="py-5 px-3 text-white bg-dark">
+    <h1>Still need help? 
+        <br>
+        Send us a message 😊 </h1>
+    <p>for any other questions please writ us at
+        <a href="mailto: jcamilocarorodriguez@gmail.com">jcamilocarorodriguez@gmail.com</a>
+    </p>
+    
+</div>
+
+</body>
+<script src="js/script.js"></script>
+</html>
